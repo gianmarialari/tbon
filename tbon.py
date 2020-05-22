@@ -9,7 +9,7 @@ Copyright 2017 Ellis & Grant, Inc.
 import os
 import argparse
 from midiutil import MIDIFile, SHARPS, FLATS, MAJOR, MINOR
-from parser import MidiEvaluator
+from midi_parser import MidiEvaluator
 def evaluate(source, numeric=True):
     """ Run the MidiEvaluator and return the output """
     if numeric:
